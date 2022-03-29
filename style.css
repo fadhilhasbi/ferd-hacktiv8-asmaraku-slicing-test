@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 95vh;
+  height: 99.9vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -25,7 +25,7 @@ header {
 
 .main-container {
   display: flex;
-  flex: 1;
+  flex: 5;
   flex-direction: column;
 }
 
@@ -48,11 +48,10 @@ aside {
 footer {
   background-color: #aba7cc;
   border: 1px solid;
-  margin-bottom: -1.5em;
   padding: 2em 0 2em 0;
 }
 
-@media all and (max-width: 250px) {
+@media all and (max-width: 338px) {
   .mid-content {
     flex-direction: column;
   }
